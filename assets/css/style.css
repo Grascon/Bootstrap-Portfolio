@@ -1,0 +1,167 @@
+body {
+	background-image: url(../images/intersection.png)
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+	font-size: 24px;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-right: 200px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 200px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto 10px auto;
+}
+.col-md-8 {
+	background-color: #ffffff;
+	border: solid 2px #cccccc;
+}
+.My-Header {
+	border-bottom: solid 2px #cccccc;
+}
+h2, h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+.col-md-6 {
+	text-align: center;
+}
+img {
+    vertical-align: baseline;
+    margin: 5px;
+}
+
+.panel-default {
+    text-align: center;
+    border: solid 2px #cccccc;
+ }
+ .btn-default {
+	margin-top: 10px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+ }
+ .btn {
+ 	    margin-bottom: 10px;
+ }
+.panel-default>.panel-heading {
+	background-color: #ffffff; 
+}
+.panel-footer {
+	height: 75px;
+	background-color: #666666;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-top: solid 5px #4aaaa5;
+}
+.Hangman {
+	position: relative;
+	margin: 10px;
+	display: inline;
+}
+.RPG-Game {
+	position: relative;
+	margin: 10px;
+	display: inline;
+}
+.Trivia-Game {
+	position: relative;
+	margin: 10px;
+	display: inline;
+}
+.Rutgers-Info-Widget {
+	position: relative;
+	margin: 10px;
+	display: inline;
+}
+.Rock-Paper-Scissors {
+	position: relative;
+	margin: 10px;
+	display: inline;
+}
+.Banner1 {
+	position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    bottom: 25px;
+    left: 5px;
+}
+.Banner2 {
+	position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    bottom: 25px;
+    left: 5px;
+}
+.Banner3 {
+	position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    bottom: 25px;
+    left: 5px;
+}
+.Banner4 {
+	position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    bottom: 25px;
+    left: 5px;
+}
+.Banner5 {
+	position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    bottom: 25px;
+    left: 5px;
+}
+/*.Hangman .RPG-Game .Trivia-Game .Rutgers-Info-Widget .Rock-Paper-Scissors{
+	position: relative;
+	margin: 10px;
+	display: inline;
+}
+.Banner1, .Banner2, .Banner3, .Banner4, .Banner5 {
+	position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 18px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    bottom: 25px;
+    left: 5px;
+}
