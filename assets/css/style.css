@@ -68,10 +68,15 @@ img {
 img {
     margin: 22px 5px;
 }
-.Hangman {
+.Psychic-Game {
 	position: relative;
 	margin: 10px;
 	display: inline;
+}
+.Hangman {
+    position: relative;
+    margin: 10px;
+    display: inline;
 }
 .RPG-Game {
 	position: relative;
