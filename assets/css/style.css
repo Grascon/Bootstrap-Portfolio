@@ -2,22 +2,25 @@ body {
 	background-image: url(../images/intersection.png);
     font-family: 'Poppins', sans-serif;
 }
-
 .navbar-default .navbar-brand {
     color: white;
 	font-size: 24px;
-	background: #0c4564;
+	background: #2a7988;
 	color: #ffffff;
     font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 }
 ul.nav.navbar-nav.navbar-right {
-    margin-right: 150px;
+    margin-right: 135px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 85px;
 }
-
+.navbar-default .navbar-nav>li>a {
+    color: #2a7988;
+    font-weight: bold;
+    font-size: 16px;
+}
 .container {
 	margin: 15px auto ;
 }
@@ -29,21 +32,20 @@ ul.nav.navbar-nav.navbar-right {
 	border-bottom: solid 2px #cccccc;
 }
 h2, h3 {
-	color: #0c4564;
+	color: #2a7988;
     font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 }
 .My-Info {
     margin: 10px;
 }
-.col-md-6 {
+.col-md-6, .col-md-4 {
 	text-align: center;
 }
 img {
     vertical-align: baseline;
     margin: 5px;
 }
-
 .panel-default {
     text-align: center;
     border: solid 2px #cccccc;
@@ -51,56 +53,33 @@ img {
  .btn-default {
 	margin-top: 10px;
 	color: #ffffff;
-	background-color: #0c4564;
+	background-color: #2a7988;
  }
  .btn {
- 	    margin-bottom: 10px;
+ 	margin-bottom: 10px;
  }
 .panel-default>.panel-heading {
-	background-color: #ffffff; 
+	background-color: #ffffff;
 }
 .panel-footer {
 	height: 75px;
 	background-color: #666666;
 	color: #ffffff;
-	border-top: solid 5px #0c4564;
+	border-top: solid 5px #2a7988;
+    position: relative;
 }
 img {
     margin: 22px 5px;
 }
-.Psychic-Game {
+.Psychic-Game, .Hangman, .RPG-Game, .Trivia-Game, .Rutgers-Info-Widget, .Rock-Paper-Scissors {
 	position: relative;
 	margin: 10px;
 	display: inline;
 }
-.Hangman {
-    position: relative;
-    margin: 10px;
-    display: inline;
-}
-.RPG-Game {
-	position: relative;
-	margin: 10px;
-	display: inline;
-}
-.Trivia-Game {
-	position: relative;
-	margin: 10px;
-	display: inline;
-}
-.Rutgers-Info-Widget {
-	position: relative;
-	margin: 10px;
-	display: inline;
-}
-.Rock-Paper-Scissors {
-	position: relative;
-	margin: 10px;
-	display: inline;
-}
-.Banner1 {
+
+.Banner1, .Banner2, .Banner3, .Banner4, .Banner5 {
 	position: absolute;
-    background: #0c4564;
+    background: #2a7988;
     color: #ffffff;
     text-align: center;
     width: 200px;
@@ -110,47 +89,4 @@ img {
     left: 5px;
 
 }
-.Banner2 {
-	position: absolute;
-    background: #0c4564;
-    color: #ffffff;
-    text-align: center;
-    width: 200px;
-    height: 40px;
-    padding-top: 10px;
-    bottom: 25px;
-    left: 5px;
-}
-.Banner3 {
-	position: absolute;
-    background: #0c4564;
-    color: #ffffff;
-    text-align: center;
-    width: 200px;
-    height: 40px;
-    padding-top: 10px;
-    bottom: 25px;
-    left: 5px;
-}
-.Banner4 {
-	position: absolute;
-    background: #0c4564;
-    color: #ffffff;
-    text-align: center;
-    width: 200px;
-    height: 40px;
-    padding-top: 10px;
-    bottom: 25px;
-    left: 5px;
-}
-.Banner5 {
-	position: absolute;
-    background: #0c4564;
-    color: #ffffff;
-    text-align: center;
-    width: 200px;
-    height: 40px;
-    padding-top: 10px;
-    bottom: 25px;
-    left: 5px;
-}
+
