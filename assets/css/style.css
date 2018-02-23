@@ -1,6 +1,7 @@
 body {
 	background-image: url(../images/intersection.png);
     font-family: 'Poppins', sans-serif;
+    overflow: auto;
 }
 .navbar-default .navbar-brand {
     color: white;
@@ -41,6 +42,7 @@ h2, h3 {
 }
 .col-md-6, .col-md-4 {
 	text-align: center;
+	    line-height: 20px;
 }
 img {
     vertical-align: baseline;
@@ -87,6 +89,30 @@ img {
     padding-top: 10px;
     bottom: 25px;
     left: 5px;
-
 }
 
+.Side-Panel {
+	background-color: white;
+	margin-top: 10px;
+	border: solid 2px #cccccc;
+}
+.Panel-Title {
+	padding: 1px;
+	border-bottom: solid 2px #cccccc;
+}
+
+.Footer {
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+	margin-top: 50px;
+	background-color: #666666;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	position: fixed;
+	bottom: 0px;
+	border-top: solid 5px #2a7988;
+
+}
