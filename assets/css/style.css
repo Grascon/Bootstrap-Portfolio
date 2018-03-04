@@ -1,7 +1,8 @@
-body {
+body, html {
 	background-image: url(../images/intersection.png);
     font-family: 'Poppins', sans-serif;
     overflow: auto;
+    height: 100%;
 }
 .navbar-default .navbar-brand {
     color: white;
@@ -12,10 +13,12 @@ body {
 	font-weight: bold;
 }
 ul.nav.navbar-nav.navbar-right {
-    margin-right: 135px;
+    position: relative;
+    right: 110px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 85px;
+    position: relative;
+    left: 100px;
 }
 .navbar-default .navbar-nav>li>a {
     color: #2a7988;
@@ -23,7 +26,7 @@ ul.nav.navbar-nav.navbar-right {
     font-size: 16px;
 }
 .container {
-	margin: 15px auto ;
+	margin: 0px 100px 0px 100px;
 }
 .col-md-8 {
 	background-color: #ffffff;
@@ -38,11 +41,11 @@ h2, h3 {
 	font-weight: bold;
 }
 .My-Info {
-    margin: 10px;
+    margin: 10px 0px;
 }
 .col-md-6, .col-md-4 {
 	text-align: center;
-	    line-height: 20px;
+	line-height: 20px;
 }
 img {
     vertical-align: baseline;
@@ -64,7 +67,7 @@ img {
 	background-color: #ffffff;
 }
 .panel-footer {
-	height: 75px;
+	
 	background-color: #666666;
 	color: #ffffff;
 	border-top: solid 5px #2a7988;
@@ -73,7 +76,7 @@ img {
 img {
     margin: 22px 5px;
 }
-.Psychic-Game, .Hangman, .RPG-Game, .Trivia-Game, .Rutgers-Info-Widget, .Rock-Paper-Scissors {
+.Psychic-Game, .Hangman, .RPG-Game, .Trivia-Game, .Giphy-Api, .Rock-Paper-Scissors {
 	position: relative;
 	margin: 10px;
 	display: inline;
@@ -85,7 +88,7 @@ img {
     color: #ffffff;
     text-align: center;
     width: 200px;
-    height: 40px;
+    height: 35px;
     padding-top: 10px;
     bottom: 25px;
     left: 5px;
@@ -101,18 +104,16 @@ img {
 	border-bottom: solid 2px #cccccc;
 }
 
-.Footer {
+footer {
 	width: 100%;
 	height: 50px;
-	padding: 15px;
-	margin-top: 50px;
+	padding: 10px;
 	background-color: #666666;
 	text-align: center;
 	color: white;
-	font-weight: bold;
 	font-size: 16px;
-	position: fixed;
-	bottom: 0px;
 	border-top: solid 5px #2a7988;
-
+	position: absolute;
+    top: 92%;
+    margin-top: 5px;
 }
